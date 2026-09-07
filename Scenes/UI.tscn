@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://dhvvbmu3rewn3"]
+
+[node name="Inspectors" type="Panel" unique_id=777572262]
+offset_top = 400.0
+offset_right = 896.0
+offset_bottom = 648.0
+
+[node name="TabBar" type="TabBar" parent="." unique_id=375510343]
+layout_mode = 0
+offset_right = 825.0
+offset_bottom = 40.0
+current_tab = 0
+tab_count = 2
+tab_0/title = "Instruments"
+tab_1/title = "Sound Busses"
+
+[node name="Instruments" type="Panel" parent="TabBar" unique_id=263052618]
+visible = false
+layout_mode = 0
+offset_top = 40.0
+offset_right = 896.0
+offset_bottom = 248.0
+
+[node name="ItemList" type="ItemList" parent="TabBar/Instruments" unique_id=1175059495]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SoundBusses" type="Panel" parent="TabBar" unique_id=636142968]
+visible = false
+layout_mode = 0
+offset_top = 40.0
+offset_right = 896.0
+offset_bottom = 248.0
+
+[node name="GraphEdit" type="GraphEdit" parent="TabBar/SoundBusses" unique_id=568907050]
+layout_mode = 0
+offset_left = 632.0
+offset_right = 896.0
+offset_bottom = 208.0
+scroll_offset = Vector2(-48, -56)
+
+[node name="Files" type="Panel" parent="TabBar" unique_id=337205694]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 896.0
+offset_bottom = 248.0
+
+[node name="Tree" type="Tree" parent="TabBar/Files" unique_id=1727137196]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 208.0
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="TabBar/Files" unique_id=262553111]
+layout_mode = 0
+offset_left = 368.0
+offset_right = 896.0
+offset_bottom = 208.0

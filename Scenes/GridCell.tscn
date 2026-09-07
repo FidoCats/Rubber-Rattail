@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://gxg8dsttd2wl"]
+
+[ext_resource type="Texture2D" uid="uid://b3yyhcloxwpjl" path="res://Rubber Rattail/Stuff/Images/icon.svg" id="1_ri2nw"]
+[ext_resource type="Script" uid="uid://dcxwg4lejg7ab" path="res://Rubber Rattail/Scripts/Clicked.gd" id="2_ptdb1"]
+
+[node name="GridCell" type="Sprite2D" unique_id=1734434779]
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("1_ri2nw")
+script = ExtResource("2_ptdb1")
